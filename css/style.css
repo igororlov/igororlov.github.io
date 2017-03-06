@@ -559,3 +559,21 @@ ul.media_sec li:nth-child(3){
   margin-top: 1.5em;
 }
 }
+
+/* Printable version */
+@media print {
+  .no-print, .no-print * {
+      display: none !important;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .header h1 {
+    font-weight: 500;
+    font-size: 2em;
+  }
+  .header-right h2 {
+    font-weight: 500;
+    font-size: 2em;
+  }
+}
