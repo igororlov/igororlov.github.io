@@ -576,4 +576,7 @@ ul.media_sec li:nth-child(3){
     font-weight: 500;
     font-size: 2em;
   }
+  .skills {
+    page-break-before: always;
+  }
 }
